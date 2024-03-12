@@ -1,0 +1,28 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: lightgrey;
+  padding: 10px;
+}
+
+.flex-space {
+  flex: 1;
+}
+
+.email {
+  font-size: 16px;
+}
+
+.center-content {
+  font-size: 20px;
+}
+
+.icons {
+  font-size: 24px;
+}
+
+.icons i {
+  margin-left: 10px; /* Adjust as needed */
+}

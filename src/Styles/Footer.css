@@ -1,0 +1,18 @@
+.footer-container {
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.right-column {
+    flex: 1;
+    background-color: black; /* Add black color */
+    color: white; /* Set text color to white */
+    padding: 20px;
+}
+

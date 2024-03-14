@@ -3,34 +3,32 @@ import '../Styles/Footer.css';
 import InsideFooter from '../Components/InsideFooter'
 function Footer() {
     return (
-      <div className='flex-container' style={{ backgroundColor: 'black' }}>
-        <div className='row'>
-            <div className='col'>
-                <div className='container' style={{ margin: 50, padding: 50 }}>
-                    <h1>gm@nome.art</h1>
-                    <br/><br/>
-                    <div class="footer-col">
-                    <div className='row'>
-                        <div className='col'>HOME</div>
-                        <div className='col'>ABOUT</div>
+        <div className='footer'>
+            <div className='footer-layout'>
+                <div className='footer-row'>
+                <div className='footer-column-1'>
+                    <div className='footer-contact-links'>
+                        <a href="/" class="footer-contact-link-text">gm@nome.art</a>
                     </div>
-                    <div className='row'>
-                        <div className='col'>1/1 ART</div>
-                        <div className='col'>EDITIONS</div>
-                    </div>
-                    <div className='row'>
-                        <div className='col'>LEADER-BOARD</div>
-                        <div className='col'>RUNES</div>
-                    </div>
+                    <div  className="footer-main-links">
+                        <a href="/" aria-current="page" class="footer-link-text w--current">Home</a>
+                        <a href="/" class="footer-link-text">1/1 ART</a>
+                        <a href="/" class="footer-link-text">LEADER-BOARD</a>
+                        <a href="/" class="footer-link-text">ABOUT</a>
+                        <a href="/" class="footer-link-text">EDITIONS</a>
+                        <a href="/" class="footer-link-text">RUNES</a>
                     </div>
                     <div className='rom'>
-                        <br/><br/>
                         <InsideFooter/>
                     </div>
+                    <div class="subfooter-links is-left">
+                        <a href="/" class="subfooter-link">PRIVACY POLICY</a>
+                        <a href="/" class="subfooter-link">TERMS OF SERVICE</a>
+                    </div>
+                </div>
+                <div className='footer-column-2'></div>
                 </div>
             </div>
-            <div className='col'></div>
-        </div>
       </div>
     );
 }

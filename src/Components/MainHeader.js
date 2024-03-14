@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Styles/MainHeaderStyle.css';
-import InsideFooter from '../Components/InsideFooter'
 
 
 function MainHeader() {
